@@ -1,7 +1,7 @@
 # kubernetes-nodejs
 Exemplo prático de um projeto em nodejs, orquestrado com kubernetes
 
-[Leia o conteudo completo](https://www.slideshare.net/AndrStraube/kubernetes-devops)
+[Leia a apresentação](https://www.slideshare.net/AndrStraube/docker-kubernetes-devops)
 
 * Para utilizar esta imagem com docker, rexecute o comando:
 ```
