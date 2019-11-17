@@ -1,16 +1,16 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: node-example
+  name: kube-nodejs
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: node-example
+        app: kube-nodejs
     spec:
       containers:
-      - name: node-example
+      - name: kube-nodejs
         image: straucorp/kubernetes-nodejs
         imagePullPolicy: Always
         ports:
