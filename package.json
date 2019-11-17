@@ -1,0 +1,19 @@
+{
+  "name": "kubernetes-nodejs",
+  "version": "1.0.0",
+  "description": "Exemplo prático de um projeto em nodejs, orquestrado com kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astraube/kubernetes-nodejs.git"
+  },
+  "author": "Andre Straube <contato@andrestraube.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astraube/kubernetes-nodejs/issues"
+  },
+  "homepage": "https://github.com/astraube/kubernetes-nodejs#readme"
+}

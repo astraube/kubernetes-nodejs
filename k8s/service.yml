@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kube-nodejs
+  labels:
+    app: kube-nodejs
+spec:
+  selector:
+    app: kube-nodejs
+  ports:
+  - port: 3000
+    protocol: TCP
+    nodePort: 30001
+  type: LoadBalancer
