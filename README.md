@@ -8,13 +8,11 @@ Exemplo prático de um projeto em nodejs, orquestrado com kubernetes
 docker push straucorp/kubernetes-nodejs:latest
 ```
 
-* Para utilizar com pubernetes, execute os comandos:
+* Para utilizar com Kubernetes, execute os comandos:
 ```
 git clone https://github.com/astraube/kubernetes-nodejs.git
-```
-```
+
 cd kubernetes-nodejs
-```
-```
+
 kubectl apply -f k8s
 ```
