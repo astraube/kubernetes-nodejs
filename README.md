@@ -43,6 +43,8 @@ kubectl cluster-info
 ##
 
 ### kubernetes dashboard
+* [kubernetic](https://kubernetic.com/)
+OU
 * [kubernetes-dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/) 
 ```
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta8/aio/deploy/recommended.yaml
