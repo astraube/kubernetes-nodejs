@@ -21,6 +21,19 @@ Faça um curso gratuito sobre [microsserviços escaláveis ​​com o Kubernete
 # kubernetes + NodeJs
 Este projeto é um exemplo prático de orquestração de containers com [Kubernetes](https://kubernetes.io/) para projetos em [NodeJs](https://nodejs.org).
 
+### Get credentials k82 cluster
+* GCP
+```
+gcloud container clusters get-credentials [cluster-name] --zone [zone] --project [project]
+```
+* GCP Datatalks test
+```
+gcloud container clusters get-credentials standard-cluster-1 --zone us-central1-a --project datatalks-265115
+```
+* Azure
+```
+az aks get-credentials -g [resource-group] -n [cluster-name]
+```
 
 * Para utilizar esta imagem com o docker, execute o comando:
 ```
