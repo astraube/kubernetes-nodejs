@@ -21,7 +21,8 @@ Faça um curso gratuito sobre [microsserviços escaláveis ​​com o Kubernete
 # kubernetes + NodeJs
 Este projeto é um exemplo prático de orquestração de containers com [Kubernetes](https://kubernetes.io/) para projetos em [NodeJs](https://nodejs.org).
 
-### Get credentials k82 cluster
+# Etapas para conectar no cluster k82
+### Obter credenciais do cluster k82
 * GCP
 ```
 gcloud container clusters get-credentials [cluster-name] --zone [zone] --project [project]
@@ -35,17 +36,35 @@ gcloud container clusters get-credentials standard-cluster-1 --zone us-central1-
 az aks get-credentials -g [resource-group] -n [cluster-name]
 ```
 
+* Verificar conexão com o cluster
+```
+kubectl cluster-info
+```
+##
+
+### kubernetes dashboard
+* [kubernetes-dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/) 
+```
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta8/aio/deploy/recommended.yaml
+```
+
+##
+
 * Para utilizar esta imagem com o docker, execute o comando:
 ```
 docker push straucorp/kubernetes-nodejs:latest
 ```
 
-* Para utilizar com o Kubernetes, execute os comandos:
+### Executar aplicação
 ```
 git clone https://github.com/astraube/kubernetes-nodejs.git
 
 cd kubernetes-nodejs
 
+# deploy
 kubectl apply -f k8s
+
+# obter endereço de IP externo
+kubectl get services
 ```
 
