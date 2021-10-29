@@ -16,8 +16,6 @@ Leia a documentação [kubernetes.io](kubernetes.io)
 
 Veja o [tutorial interativo](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 
-Faça um curso gratuito sobre [microsserviços escaláveis ​​com o Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
-
 # kubernetes + NodeJs
 Este projeto é um exemplo prático de orquestração de containers com [Kubernetes](https://kubernetes.io/) para projetos em [NodeJs](https://nodejs.org).
 
